@@ -12,7 +12,8 @@ function obtenerMayor(x, y) {
       {
         return y;    
       }
-    else{
+    else
+    {
       return x || y;
     }
 }
@@ -23,13 +24,16 @@ function saludo(idioma) {
   // Si "idioma" es "mandarin", devuelve "Ni Hao!"
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
-  if (idioma === "aleman"){
+  if (idioma === "aleman")
+    {
      return "Guten Tag!";
-  }
-    else if(idioma === "mandarin"){
-      return "Ni Hao!";
     }
-    else if(idioma === "ingles"){
+      else if(idioma === "mandarin")
+      {
+        return "Ni Hao!";
+      }
+    else if(idioma === "ingles")
+      {
       return "Hello!";
       }
   else
@@ -55,10 +59,12 @@ function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (numero < 50 && numero > 20){
+  if (numero < 50 && numero > 20)
+  {
     return true;
   }
-  else{
+  else
+  {
     return false;
   }
 }
@@ -71,10 +77,12 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  if(numero % 1 === 0){
+  if(numero % 1 === 0)
+  {
     return true;
   }
-  else{
+  else
+  {
     return false;
   }
 }
@@ -95,7 +103,7 @@ function fizzBuzz(numero) {
   }
     else if (numero % 5 === 0)
   {
-      return "buzz";
+        return "buzz";
   }
   else
   {
@@ -112,9 +120,10 @@ function esPrimo(numero) {
   {
     return false;
   } 
-  for ( var i = 2; i < numero; i++ ){
-   
-    if ( numero % i === 1) {
+  for ( var i = 2; i < numero; i++ )
+  {   
+    if ( numero % i === 1) 
+    {
         return true;
     }
     else if(numero % i === 0)
