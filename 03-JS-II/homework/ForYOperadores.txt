@@ -1,0 +1,4 @@
+For; Un bucle for se utiliza para hacer una tarea repetitiva de una manera simple y rapida. El for tiene que tener un punto de partida, una condicion y un contador.
+
+`&&`, `||`, `!`: El operador `&&` se fija si los dos valores son verdadros. El OR se fija si algunos de los dos valores es TRUE
+Por ultimo, regresa false si el unico operando puede pasar a true.
