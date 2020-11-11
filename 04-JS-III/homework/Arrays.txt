@@ -1,0 +1,2 @@
+Los arrays son contenedores donde podemos guardar informaciòn. NO son tan versatiles como los objetos pero se pueden agregar, modificar datos como nos guste.
+Son faciles de realizar ya que solamente declarando una var con [] ya estan listos.
