@@ -1,0 +1,5 @@
+Objetos: son contenedores de informaciòn al igual que un array pero con grandes diferencias. Pueden tener mucha info sobre una sola cosa y se instancian con llaves.
+Propiedades: Las propiedades de los objetos se conocen como clave:valro, puede contenter muchas de estas y deben estar separadas por una coma, todo esto dentro del mismo objeto.
+Métodos: Son aquellas funciones que estan guardadas dentro de un objeto. Luego se pueden llamar a traves de una notaciòn de puntos y parentesis finales ej: objmarco.soyhenry();
+Bucle for…in: El bucle for...in es la variables que nos da JS para iterar sobre un objeto. Se declara con un IN en el medio y luego el objeto en donde queremos iterar.
+Notación de puntos vs notación de corchetes Con la notacion de puntos, solamente tenemos que llamar al objeto y luego con .propiedad, llamamos a la que necesitamos. En cambio, con la otra notaciòn tenemos que indicar la propiedad con corchetes entre comillas.
