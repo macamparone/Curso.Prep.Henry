@@ -1,0 +1,2 @@
+Prototype: Es una unica manera de hacer una vez sola un metodo para luego darle acceso al objeto.Por ejemplo, el metodo length de un string sale directamente del prototype del objeto String
+Constructors (de Clases): Son muy utiles cuando se necesita que se compartan metodos y propiedades que pueden tener en comun varios objetos.
