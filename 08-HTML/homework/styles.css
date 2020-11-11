@@ -1,0 +1,81 @@
+html 
+{
+    font-size: 15px;
+    font-family: 'Arial', Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+h1 
+{
+   /* background-image: linear-gradient(90deg, #dfb87eb4, #a9873fce)*/
+    font: 70px; 
+}
+footer
+{
+    position: fixed;
+    left: 10;
+    bottom: 10;
+    width: 100%;
+    background-image: linear-gradient(90deg, #ebd510b4, #030303ce);
+    font-size: 10px;
+}
+h3 
+{
+   display: inline;
+   text-align: left ;   
+}
+h4 
+{
+    color: white;
+    font-size: 25px;
+}
+p 
+{
+    word-wrap: initial;
+     color:  white;
+}
+
+
+
+.descrip
+{
+    margin-top: 50px;  
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.henryimg 
+{
+    width: 100px;
+}
+.home 
+{
+    background-image: url("https://wallpaperaccess.com/full/808712.jpg");
+    background-attachment: fixed;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.galeria
+{
+    margin-top: 50px;   
+}
+.row 
+{
+    display: flex;
+}  
+
+.column 
+{
+    flex: 33.33%;
+    padding: 5px;
+}
+
+
+
+#imgpeli {
+    border: 3px solid rgb(240, 166, 8);
+}

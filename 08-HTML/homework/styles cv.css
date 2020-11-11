@@ -1,0 +1,150 @@
+
+span
+{    
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-left: 50px;  
+}
+h3
+{      
+    margin-left: 20px;   
+    padding: 20px;
+    color: white;
+}
+h4
+{
+    background-image: linear-gradient(90deg, #ebd510b4, #030303ce);
+    font-size: 20px;
+    text-align: right;
+    padding-right: 30px;
+    color: white;
+}
+h1 
+{
+    font-family: 'Verdana';
+    color: white;
+    font-size: 25px;
+}
+footer
+{
+    display: flex;    
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(90deg, #ebd510b4, #030303ce);
+    font-size: 10px;   
+    margin-left: -40px;
+}
+body 
+{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.9) 100%), url("https://miro.medium.com/max/3840/1*1MF9SNngpayZhohxY_Q17A.jpeg");   
+    padding: 20px;
+    font-family: Arial;
+}
+
+
+
+
+
+#aboutme
+{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 120px;
+} 
+#hello
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#avatar
+{
+    align-items: center;
+    width: 90%;
+    float: left;
+    border-radius: 50%;
+}
+#imgpregunta
+{
+    align-items: right;
+    float: right;
+    border-radius: 50%;
+}
+#imgme
+{
+    align-items: left;
+    float: left;
+    border-radius: 50%;
+}
+#textowhy
+{
+    font-size: 20px;
+    text-align: center;
+    color: white;    
+} 
+
+
+
+
+
+
+
+.divwhy{
+    text-align: justify;
+}
+
+.header {
+    background-image: url("https://images.pexels.com/photos/305211/pexels-photo-305211.jpeg");
+      padding: 20px;
+    text-align: left;
+    font-size: 100px;
+    background-repeat: no-repeat;  
+  } 
+.subtitulo{
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.linkedinimg { 
+    align-items: flex-end;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 20px;
+}
+.henryimg { 
+    
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 100px;
+}
+
+.row {    
+    text-align: justify;
+    margin: 8px -20px;
+  }
+.row,
+.row > .column {
+    
+  padding: 21px;
+}  
+.column {
+    float: left;
+    width: 22%;
+  }
+.content {
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+.texto{
+    margin-top: 130%;
+    height: 40%;
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
