@@ -1,0 +1,2 @@
+Funciones Callback: Son funciones que nos permiten pasarlas como argumento a otras funciones. Se las debe tratar como argemento cuando se pasan ya que si se invoca
+nos va a tirar error. Generalmente se denominan CB.
